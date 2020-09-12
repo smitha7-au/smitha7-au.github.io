@@ -3,6 +3,7 @@ body {
 }
 .navbar {
     background-color: lavender;
+    color: black;
 }
 #welcome {
     text-align: center;
@@ -19,7 +20,7 @@ body {
 }
 footer {
     text-align: center;
-    padding: 3px;
+    /* padding: 3px; */
     background-color: lavender;
 }
 #imgBorder {
@@ -32,3 +33,59 @@ p {
     font-weight: 490;
     color: black;
 }
+
+ul.socialIcons {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .socialIcons li {
+    background-color: yellow;
+    list-style: none;
+    display: inline-block;
+    margin: 4px;
+    border-radius: 2em;
+    overflow: hidden;
+  }
+  
+  .socialIcons li a {
+    display: block;
+    /* padding: 0.5em; */
+    min-width: 1.28571429em;
+    max-width: 1.28571429em;
+    height: 1.28571429em;
+    white-space: nowrap;
+    line-height: 1.5em; /*it's working only when you write text with icon*/
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1.7em;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 0.5em;
+    size: 90px;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+  .socialIcons .facebook {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+    
+  }
+
+  .socialIcons .linkedin {
+    background-color: #3b5998;
+    box-shadow: 0 0 16px #3b5998;
+    size: 30px;
+  }
+
+  .socialIcons .github {
+    background-color: #3f434d;
+    box-shadow: 0 0 16px #3f434d;
+  }
