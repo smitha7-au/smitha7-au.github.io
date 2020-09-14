@@ -1,0 +1,22 @@
+{
+  "name": "smitha7-au.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitha7-au/smitha7-au.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitha7-au/smitha7-au.github.io/issues"
+  },
+  "homepage": "https://github.com/smitha7-au/smitha7-au.github.io#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
