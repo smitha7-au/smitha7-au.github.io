@@ -1,8 +1,28 @@
 body {
-    background: beige url("Whitehaven.jpg") no-repeat center;
+    background-color: rgb(247, 236, 242);
+    /* url("Whitehaven.jpg") no-repeat center; */
 }
+
+.dark-mode {
+  background-color: black;
+  color: pink;
+}
+
+.dark-mode p {
+  color: rgb(66, 239, 245);
+}
+
+.button-color{
+  background-color: lavender;
+}
+
+.fa-moon {
+  color: black;
+  
+}
+
 .navbar {
-    background-color: lavender;
+    background-color:lavender;
     color: black;
 }
 #welcome {
@@ -31,7 +51,7 @@ footer {
 p {
     font-size: larger;
     font-weight: 490;
-    color: black;
+    /* color: black; */
 }
 
 ul.socialIcons {
